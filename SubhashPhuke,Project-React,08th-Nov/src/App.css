@@ -1,0 +1,35 @@
+/* App.css or your main styling file */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 600px) {
+  /* Adjustments for screens wider than 600px */
+  .container {
+    padding: 40px;
+  }
+
+  /* Add more styles for larger screens as needed */
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 900px) {
+  /* Adjustments for screens wider than 900px */
+  .container {
+    padding: 60px;
+  }
+
+  /* Add more styles for even larger screens as needed */
+}
+
+/* Add more media queries for other screen sizes as needed */
